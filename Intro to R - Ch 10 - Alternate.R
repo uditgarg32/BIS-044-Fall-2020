@@ -221,7 +221,7 @@ ggplot(data=DF) +
 
 ggplot(data=DF) + 
   geom_bar(aes(x=total_amount,fill=passenger_count)) + 
-  ggtitle("Fare Distribution Between $0 and $10 by Passenenger Count") + 
+  ggtitle("Fare Distribution Between $0 and $10 by Passenger Count") + 
   xlab("Fare") + 
   ylab("Frequency") +
   theme_minimal() +
