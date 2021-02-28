@@ -28,6 +28,7 @@ for (i in 2:n) {
 
 View(SNOHOMISH)
 
+
 # Plot what we've got
 
 p <- ggplot(data = SNOHOMISH,
